@@ -44,6 +44,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`e5ce2d6`](https://github.com/stdlib-js/stdlib/commit/e5ce2d609f303ac075cee06bfc453cddea9d039c) - **revert:** chore: update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`ac4992b`](https://github.com/stdlib-js/stdlib/commit/ac4992b3eeccbfcceea795f86cf669b2481d8250) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
 -   [`7e2c16b`](https://github.com/stdlib-js/stdlib/commit/7e2c16b05d85b9d25c21626d4cbce381fcfe5d32) - **refactor:** remove unused header, update benchmarks in `math/base/special/croundf` [(#3217)](https://github.com/stdlib-js/stdlib/pull/3217) _(by Gunj Joshi)_
