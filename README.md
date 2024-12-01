@@ -173,15 +173,15 @@ Rounds each component of a single-precision complex floating-point number to the
 #include "stdlib/complex/float32/real.h"
 #include "stdlib/complex/float32/imag.h"
 
-stdlib_complex64_t z = stdlib_complex64( -4.2, 5.5 );
+stdlib_complex64_t z = stdlib_complex64( -4.2f, 5.5f );
 
 stdlib_complex64_t out = stdlib_base_croundf( z );
 
 float re = stdlib_complex64_real( out );
-// returns -4.0
+// returns -4.0f
 
 float im = stdlib_complex64_imag( out );
-// returns 6.0
+// returns 6.0f
 ```
 
 The function accepts the following arguments:
@@ -218,10 +218,10 @@ stdlib_complex64_t stdlib_base_croundf( const stdlib_complex64_t z );
 
 int main( void ) {
     const stdlib_complex64_t x[] = {
-        stdlib_complex64( 3.14, 1.5 ),
-        stdlib_complex64( -3.14, -1.5 ),
-        stdlib_complex64( 0.0, 0.0 ),
-        stdlib_complex64( 0.0/0.0, 0.0/0.0 )
+        stdlib_complex64( 3.14f, 1.5f ),
+        stdlib_complex64( -3.14f, -1.5f ),
+        stdlib_complex64( 0.0f, 0.0f ),
+        stdlib_complex64( 0.0f / 0.0f, 0.0f / 0.0f )
     };
 
     stdlib_complex64_t v;
@@ -252,14 +252,6 @@ int main( void ) {
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
 <section class="related">
-
-* * *
-
-## See Also
-
--   <span class="package-name">[`@stdlib/math-base/special/cceilf`][@stdlib/math/base/special/cceilf]</span><span class="delimiter">: </span><span class="description">round a single-precision complex floating-point number toward positive infinity.</span>
--   <span class="package-name">[`@stdlib/math-base/special/cfloor`][@stdlib/math/base/special/cfloor]</span><span class="delimiter">: </span><span class="description">round a double-precision complex floating-point number toward negative infinity.</span>
--   <span class="package-name">[`@stdlib/math-base/special/croundn`][@stdlib/math/base/special/croundn]</span><span class="delimiter">: </span><span class="description">round each component of a double-precision complex floating-point number to the nearest multiple of 10^n.</span>
 
 </section>
 
@@ -338,12 +330,6 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/math-base-special-croundf/main/LICENSE
 
 <!-- <related-links> -->
-
-[@stdlib/math/base/special/cceilf]: https://github.com/stdlib-js/math-base-special-cceilf
-
-[@stdlib/math/base/special/cfloor]: https://github.com/stdlib-js/math-base-special-cfloor
-
-[@stdlib/math/base/special/croundn]: https://github.com/stdlib-js/math-base-special-croundn
 
 <!-- </related-links> -->
 
