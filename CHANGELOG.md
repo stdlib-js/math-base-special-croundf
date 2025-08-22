@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-04-01)
+## Unreleased (2025-08-22)
 
 <section class="features">
 
@@ -44,6 +44,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`44010b3`](https://github.com/stdlib-js/stdlib/commit/44010b3e8509ab22c32750fa125a1155f5fd8995) - **docs:** fix return annotation values _(by Philipp Burckhardt)_
 -   [`a1e230f`](https://github.com/stdlib-js/stdlib/commit/a1e230f29297caa89880e9c194c615a0400fb7bc) - **chore:** clean up cppcheck-suppress comments _(by Karan Anand)_
 -   [`92c0d4e`](https://github.com/stdlib-js/stdlib/commit/92c0d4e65a8ffef2a2264ba906cfe8020c483b13) - **docs:** clean-up and use C floats when appropriate _(by Philipp Burckhardt)_
 -   [`b0e68c5`](https://github.com/stdlib-js/stdlib/commit/b0e68c5bc8ee985794eb2ea1791c9337cd15fbd0) - **chore:** update to modern benchmark Makefile _(by Philipp Burckhardt)_
