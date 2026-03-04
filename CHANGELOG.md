@@ -2,6 +2,41 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-03-04)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`2727b51`](https://github.com/stdlib-js/stdlib/commit/2727b5129ea9956b5e0caf989654454912fe9d24) - **docs:** improve doctests for complex number instances in `math/base/special/croundf` [(#10510)](https://github.com/stdlib-js/stdlib/pull/10510) _(by AyushiJain18270, Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   AyushiJain18270
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.1">
 
 ## 0.1.1 (2026-02-08)
