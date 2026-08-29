@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,22 +16,17 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var Complex64 = require( '@stdlib/complex-float32-ctor' );
-var addon = require( './../src/addon.node' );
-
-
-// MAIN //
+import { Complex64 } from '@stdlib/types/complex';
 
 /**
 * Rounds each component of a single-precision complex floating-point number to the nearest integer.
 *
-* @private
-* @param {Complex64} z - complex number
-* @returns {Complex64} result
+* @param z - input value
+* @returns result
 *
 * @example
 * var Complex64 = require( '@stdlib/complex-float32-ctor' );
@@ -39,12 +34,9 @@ var addon = require( './../src/addon.node' );
 * var v = croundf( new Complex64( -4.2, 5.5 ) );
 * // returns <Complex64>[ -4.0, 6.0 ]
 */
-function croundf( z ) {
-	var v = addon( z );
-	return new Complex64( v.re, v.im );
-}
+declare function croundf( z: Complex64 ): Complex64;
 
 
 // EXPORTS //
 
-module.exports = croundf;
+export = croundf;
